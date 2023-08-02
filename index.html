@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/Design sans titre (1).png" type="image/png">
+</head>
+<body >
+    <header class="header">
+        <h1 class="header-title">
+            Library
+        </h1>
+        <div class="header-img">
+            <img src="./img/Design sans titre (1).png" alt="">
+        </div>
+        
+    </header>
+    <div class="overlay is-hidden"></div>
+    <div class="content">
+        
+            <button class="content-addBtn"> <img src="./img/add_box_FILL0_wght400_GRAD0_opsz48.svg" alt=""> Add Book</button>
+            
+            <form class="content-formAddBook " >
+
+                <label for="title"> Title </label>
+                <input type="text" name="title" required>
+
+                <label for="author"> Author </label>
+                <input type="text" name="author">
+
+                <label for="pages"> Pages </label>
+                <input type="number" name="pages" min="0">
+
+                <div class="formCheckbox">
+                    <label for="read"> Did you read it ?  </label>
+                    <input type="checkbox" name="read">
+                </div>
+                <button class="btn-submit" type="submit"> Submit </button>
+            </form>
+            <div class="content-displayBook"></div>
+            
+        
+    </div>
+    <div class="sidebar">
+
+    </div>
+    <footer>
+
+    </footer>
+    
+    
+</body>
+<script src="library.js"></script>
+</html>
